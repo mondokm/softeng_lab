@@ -31,5 +31,9 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Run java checkstyle
       uses: nikitasavinov/checkstyle-action@0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        reporter: 'github-pr-check'
+        tool_name: 'testtool'
             
       
