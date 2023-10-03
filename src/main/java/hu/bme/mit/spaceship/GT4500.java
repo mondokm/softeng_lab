@@ -1,7 +1,7 @@
 package hu.bme.mit.spaceship;
 
 /**
-* A simple spaceship with two proton torpedo stores and four lasers
+* A simple spacehip with two proton torpedo stores and four lasers
 */
 public class GT4500 implements SpaceShip {
 
@@ -16,6 +16,7 @@ public class GT4500 implements SpaceShip {
   }
 
   public boolean fireLaser(FiringMode firingMode) {
+    System.out.println("ASD");
     return true;
   }
 
